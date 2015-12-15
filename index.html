@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+        <head>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="developer front-end desarrolladora web html">
+            <meta name="author" content="Melisa Castillo">
+
+            <title>Melisa Castillo Vargas</title>
+
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+
+            <link href="css/stylish-portfolio.css" rel="stylesheet">
+            <link rel="stylesheet" href="css/utilities.css">
+            <link rel="stylesheet" href="css/component.css">
+            <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link rel="icon" type="image/jpg" href="img/rubber-ducky2.png">
+            <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="nivo-slider.css" type="text/css" />
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+            <script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+        </head>
+
+        <body>
+
+            <!-- Navegacion -->
+            <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+            <nav id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <a id="menu-close" href="#" class="btn btn-danger btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                    <li class="sidebar-brand">
+                        <a href="#top"  onclick = $("#menu-close").click(); >Melisa castillo</a>
+                    </li>
+                    <!--<li>
+                        <a href="#top" onclick = $("#menu-close").click(); >Casa</a>
+                    </li>-->
+                    <li>
+                        <a href="#about" onclick = $("#menu-close").click(); >Sobre mi</a>
+                    </li>
+                    <li>
+                        <a href="#services" onclick = $("#menu-close").click(); >Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" onclick = $("#menu-close").click(); >Mis trabajos</a>
+                    </li>
+                    <li>
+                        <a href="#contact" onclick = $("#menu-close").click(); >Contactame</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <header id="top" class="header">
+                <div class="text-vertical-center">
+                    <h1>Melisa Castillo Vargas</h1>
+                    <h3>Front-end | Developer <!--&amp;--> </h3>
+                    <br>
+                    <h2><i class="fa fa-quote-left fa-1x fa-pull-left"></i> Yo tomé el camino difiícil pero al final de éste encontré lo que buscaba<br> y eso es mi felicidad <i class="fa fa-quote-right fa-1x fa-pull-right"></i></h2><p> -"Mr. Pelus River"</p>
+                    <br>
+                    <!--<a href="#about" class="btn btn-dark btn-lg">Mas informacion</a>-->
+                </div>
+            </header>
+
+            <!-- sobre mi  -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="">Sobre mi</h2>
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12 col-sm-12">
+                                <img src="img/yo.jpg" class="img-yo" alt="">
+                              </div>
+                            </div>
+                            <p class="lead text-about"><a target="_blank" href=""></a>Hola soy Melisa castillo soy desarrolladora web en front-end y escritora de poesia. tengo 18 años de edad vivo en el Estado de Mexico. Tengo formacion en desarrollo front-end al igual que la maquetacion de este, tambien trabajo con animacion en css entre otros conocimientos. Soy una persona curiosa que le encanta investigar todo lo que se le ponga enfrente, me encanta lo que hago. </p><h4>Asi¿Que te parece si nos tomamos un cafe y nos comocemos mejor?</h4>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </section>
+
+            <!-- Servicios -->
+            <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+            <section id="services" class="services callout">
+              <div class="bg-opacity">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-lg-10 col-lg-offset-1 col-small-12">
+                            <h2 class="text-red">Servicios</h2>
+                            <hr class="small">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-area-chart fa-stack-1x text-danger"></i>
+                                    </span>
+                                        <h4 class="text-red">
+                                            <strong>Maquetacion</strong>
+                                        </h4>
+                                        <p class="text-red">Se hace una maqueta de la pagina para presentar el producto de esta.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-image fa-stack-1x text-danger"></i>
+                                    </span>
+                                        <h4 class="text-red">
+                                            <strong>Diseño Web</strong>
+                                        </h4>
+                                        <p class="text-red">Se reliza el diseño de la pagina acomo el cliente la desee o como base con la empresa o proyecto</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-magic fa-stack-1x text-danger"></i>
+                                    </span>
+                                        <h4 class="text-red">
+                                            <strong>Animacion con CSS</strong>
+                                        </h4>
+                                        <p class="text-red">Se hace las animaciones mas faciles de usar ya por su rapidez en ellas</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-html5 fa-stack-1x text-danger"></i>
+                                    </span>
+                                        <h4 class="text-red">
+                                            <strong>HTML</strong>
+                                        </h4>
+                                        <p class="text-red">Se le da la estructura que se requiere para la pagina que pida el cliente</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.row (nested) -->
+                        </div>
+                        <!-- /.col-lg-10 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+              </div>
+              <!-- /.opacity -->
+            </section>
+
+            <!--graficas
+            <section class="panel panel-default mg-grafics col-lg-10 col-sm-11">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="50" style="width: 45%">
+                  <span class="sr-only"></span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="50" style="width: 45%">
+                  <span class="sr-only"></span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="50" style="width: 45%">
+                  <span class="sr-only"></span>
+                </div>
+              </div>
+            </section>-->
+
+            <!-- Portfolio -->
+            <section id="portfolio" class="portfolio" >
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 col-small-12 text-center">
+                            <h2 class="text-red">Mis trabajos</h2>
+                            <hr class="small">
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <div class=""><!--portfolio-item-->
+                                      <a href="pet.bio/index.html">
+                                          <img class="img-portfolio img-responsive" src="img/pet-bio.jpg">
+                                      </a>
+                                  </div>
+                              </div>
+                                <div class="col-md-6">
+                                    <div class="portfolio-item">
+                                        <a href="chicama/index.html">
+                                            <img class="img-portfolio img-responsive" src="img/chicama.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="portfolio-item">
+                                        <a href="layout/index.html">
+                                            <img class="img-portfolio img-responsive" src="img/layout.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="portfolio-item">
+                                        <a href="e-comunidad/index.html">
+                                            <img class="img-portfolio img-responsive" src="img/ecomunidad.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col-lg-10 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </section>
+
+            <!-- Call to Action -->
+            <aside class="call-to-action bg-warning"  id="bg-contact"><!--panel panel-default-->
+                <div id="contact" class="container bg-opacity2">
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 text-center">
+                            <form class="form-horizontal mgt-5 pt-5">
+                                 <div class="form-group">
+                                     <label for="inputName" class="control-label col-xs-2 text-red">Nombre:</label>
+                                     <div class="col-xs-10">
+                                         <input type="name" class="form-control" placeholder="Nombre">
+                                     </div>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="inputEmail" class="control-label col-xs-2 text-red">Email:</label>
+                                     <div class="col-xs-10">
+                                         <input type="email" class="form-control" placeholder="Email">
+                                     </div>
+                                 </div>
+                                 <div class="form-group">
+                                     <label for="inputPassword" class="control-label col-xs-2 text-red">Asunto:</label>
+                                     <div class="col-xs-10">
+                                         <input type="text" class="form-control" placeholder="Asunto">
+                                     </div>
+                                 </div>
+                                 <div class="form-group">
+                                     <div class="col-xs-offset-2 col-xs-10">
+                                         <button type="submit" id="btn" class="btn btn-danger">Enviar</button>
+                                     </div>
+                                 </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Footer -->
+            <footer>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 text-center">
+                            <h4><i class="fa fa-map-maker fa-fw"></i><strong> Cd.Nezahualcoyolt - Estado de México - México</strong>
+                            </h4>
+                            <p></p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-phone fa-fw"></i> (55) 11 16 06 44</li>
+                                <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">melisacastvargs@gmail.com</a>
+                                </li>
+                                <li><!--(55)-->
+                                </li>
+                            </ul>
+                            <br>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100009217152536"><i id="color-red" class="fa fa-facebook fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/MelisaVargs"><i id="color-red" class="fa fa-twitter fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/melisariver"><i id="color-red" class="fa fa-github-alt fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://melisavargs.tumblr.com/"><i id="color-red" class="fa fa-tumblr fa-fw fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button"><i id="color-red" class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                                </li>
+                                <!---->
+                            </ul>
+                            <hr class="small">
+                            <p class="text-muted">Melisa <img src="img/rubber-ducky3.png" id="img" alt=""><!-- &copy;--> 2015</p>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+            <!-- jQuery -->
+            <script src="js/jquery.js"></script>
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+
+            <!-- Custom Theme JavaScript -->
+            <script>
+            // Closes the sidebar menu
+            $("#menu-close").click(function(e) {
+                e.preventDefault();
+                $("#sidebar-wrapper").toggleClass("active");
+            });
+
+            // Opens the sidebar menu
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#sidebar-wrapper").toggleClass("active");
+            });
+
+            // Scrolls to the selected menu item on the page
+            $(function() {
+                $('a[href*=#]:not([href=#])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+            </script>
+
+        </body>
+
+    </html>
